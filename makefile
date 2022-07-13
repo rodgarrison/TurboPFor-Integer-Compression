@@ -125,7 +125,7 @@ icapp: icapp.o libic.a $(OB)
 	$(CL) $^ $(LDFLAGS) -o icapp
 
 myapp: myapp.o libic.a
-	$(CC) $^ $(LDFLAGS) -o myapp
+	g++ $^ $(LDFLAGS) -o myapp
 
 mycpp: mycpp.o libic.a
 	$(CXX) $^ $(LDFLAGS) -o mycpp
